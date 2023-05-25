@@ -1,0 +1,183 @@
+body
+{
+    margin:0px 0px;
+    background: hsl(0, 100%, 74%) ;
+    background-image:url(./images/bg-intro-desktop.png) ;
+    /* background-size: 100% 100%; */
+    
+}
+#contain
+{
+    /* width:100%; */
+    display: flex;
+    padding:10vh 10vw;
+    justify-content: space-between;
+    /* flex-wrap:wrap; */
+}
+h1{
+    
+    font-size: 50px ;
+    width: 40vw;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+/* infosec k andar jo paragraph(p) hai vo */
+#infosec p
+{
+    width:35vw;
+    color:white;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#infosec
+{
+    /* display:flex; */
+   
+    align-self: center;
+    
+    
+}
+input{
+
+    /* New thing */
+    border-width: 0px 0px thin 0px;
+
+    border-bottom: thin solid;
+
+    /* border-radius: 5px; */
+    height: 40px;
+    width:380px;
+    outline-color: gray;
+    
+    
+    /* 1.we can align inputs by division me divide kar k */
+    /* 2. space deke */
+ 
+    
+}
+#formdiv
+{
+    background-color: white;
+    /* width:300px; */
+    border-radius: 7px;
+    box-shadow: 3px 3px 7px gray;
+    justify-content: center;
+    /* margin:30px */
+    padding:15px;
+    height:370px;
+    /* width:40%; */
+}
+.inputbox
+{
+    margin:20px 10px 20px 10px ;
+    
+    display:flex;
+    flex-direction: column;
+     justify-content: center; 
+    align-items: center; 
+    /* align-items: baseline;
+    align-items: center;
+    align-self: center; */
+    outline-color: gray;
+    /* justify-content: center; */
+}
+.inputbox:focus{
+     outline: thin solid darkcyan;
+   /* border:none; */
+    /* border-bottom: thin solid #200132;
+    outline-color:#200132; */
+    /* border-color: hsl(246, 25%, 77%); */
+      font-weight: 600;
+      border:none;
+      outline: none;
+      border-bottom: thin solid;
+
+    /* NEW Thing */
+    /* outline-color:darkblue;  */
+}
+#claimbt
+{
+    background:hsl(154, 59%, 51%);
+    color :white;
+    border:0px solid;
+    border-radius: 5px;
+    height : 40px;
+    width : 390px;
+    box-shadow: 1px 4px 6px -5px hsl(154, 59%, 51%);
+}
+
+#try
+{
+    height: 40px;
+    width:410px;
+    /* flex-direction: row; */
+    margin-bottom:20px;
+    border-radius: 5px;
+    width :27rem;
+    border:none;
+    /* padding-left:50px;
+    padding-right:50px; */
+    background-color:#4B0082;
+    color:white;
+    box-shadow: 1px 4px 6px -5px black; 
+}
+#abovebutton
+{
+    display: block;
+}
+
+@media screen and (max-width:700px) {
+
+    body
+    {
+        margin:40px 40px;
+    }
+#contain
+{
+    /* width:100%; */
+    
+    flex-wrap: wrap;
+    padding:0px 0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    margin:0px 0px;
+    font-size: 45px ;
+    width:25rem;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 0px;
+}
+/* infosec k andar jo paragraph(p) hai vo */
+#infosec
+{
+    
+    justify-content: center;
+    align-items: center;
+}
+#infosec p
+{
+    /* width:80vw; */
+    color:white;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    width:65vw;
+    margin-bottom: 50px;  
+    margin-left:0px; 
+}
+#formdiv
+{
+    background-color: white;
+    /* width:300px; */
+    border-radius: 7px;
+    box-shadow: 3px 3px 7px gray;
+    justify-content: center;
+    /* margin:30px */
+    padding:15px;
+    /* height:70vw; */
+    /* width:40%; */
+}
+}
